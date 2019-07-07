@@ -10,8 +10,8 @@ public class QAcademyHomePageNavigation extends BaseDriverScript{
 	@Test
 	public void navigateToHomePage() throws IOException {
 		driver = initializeDriver();
-		driver.get("http://www.rediff.com");
+		driver.get("http://www.qaclickacademy.com/");
 		driver.close();
-		driver.quit();
+		//driver.quit();
 	}
 }
