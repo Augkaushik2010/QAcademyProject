@@ -11,5 +11,7 @@ public class QAcademyHomePageNavigation extends BaseDriverScript{
 	public void navigateToHomePage() throws IOException {
 		driver = initializeDriver();
 		driver.get("http://www.rediff.com");
+		driver.close();
+		driver.quit();
 	}
 }

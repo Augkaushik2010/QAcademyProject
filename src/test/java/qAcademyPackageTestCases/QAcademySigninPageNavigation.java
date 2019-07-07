@@ -25,6 +25,8 @@ public class QAcademySigninPageNavigation extends BaseDriverScript{
 		Thread.sleep(30000);
 		QAcademyHomePage obj1 = new QAcademyHomePage(driver);
 		obj1.retSigninLinkProp().click();
+		driver.close();
+		driver.quit();
 	}
 	
 	/*@Test
